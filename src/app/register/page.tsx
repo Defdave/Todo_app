@@ -31,7 +31,7 @@ export default function RegisterPage() {
         Register
       </button>
 
-        <p className="text-center text-sm">
+        <p className="text-center text-sm mb-12">
           Already have an account? <Link href="/login" className="text-[#50C2C9]">Sign In</Link>
         </p>
     </main>
