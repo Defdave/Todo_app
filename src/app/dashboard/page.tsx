@@ -24,23 +24,23 @@ export default function Dashboard() {
   };
 
   return (
-    <main className="p-0 text-center bg-[#f0f4f3] text-black space-y-6 pb-12">
+    <main className="text-center bg-[#f0f4f3] text-black m-0 pt-64">
       <Image src="/shape_2.png" alt="Logo" width={300} height={270} className='absolute z-10 -top-[67px] -left-[20px]' />
 
-      <div className="bg-[#50C2C9] w-full h-[298px]">
+      <div className="absolute top-0 left-0 bg-[#50C2C9] m-0 w-full h-[298px]">
         <Image src="/Ellipse 3.png" alt="Logo" width={100} height={100} className='inline-block mx-auto mt-32 mb-4' />
         <h2 className="text-[18px] font-bold text-center text-white">Welcome Jeegar goyani</h2>
       </div>
 
-      <h2 className="text-[12px] px-8 text-right mt-4 font-semibold">Good Afternoon</h2>
+      <h2 className="text-[12px] text-right mt-4 font-semibold">Good Afternoon</h2>
       <Image src="/clock.png" alt="Logo" width={184.44} height={138} className='inline-block mx-auto mt-4 mb-4' />
-      <h2 className="text-[14px] pl-4 text-left font-semibold mb-4">Task list</h2>
+      <h2 className="text-[14px] text-left font-semibold mb-4">Task list</h2>
 
       <div
         style={{
           boxShadow: '0 4px 6px rgba(0, 0, 0, 0.4)',
         }}
-        className="bg-white border-none pb-4 mb-12 rounded-md m-auto w-[382px] h-[309px]">
+        className="bg-white border-none pb-12 rounded-md m-auto w-full h-[309px]">
         <div className="flex justify-between items-center p-4">
           <h3 className="text-[12px] font-semibold text-black/70 text-right my-4">Daily Task</h3>
             <PlusIcon className="w-[25px] h-[25px] font-bold text-[#50C2C9]" />

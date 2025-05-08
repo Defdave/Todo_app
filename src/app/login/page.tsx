@@ -28,7 +28,7 @@ export default function LoginPage() {
         Login
       </button>
 
-        <p className="text-center text-[16px] mb-12">
+        <p className="text-center text-[16px] pb-12">
         Don&rsquo;t have an account? <Link href="/register" className="text-[#50C2C9]">Sign Up</Link>
         </p>
     </main>
