@@ -29,7 +29,7 @@ export default function LoginPage() {
       </button>
 
         <p className="text-center text-[16px]">
-          Don't have an account? <Link href="/register" className="text-[#50C2C9]">Sign Up</Link>
+        Don&rsquo;t <Link href="/register" className="text-[#50C2C9]">Sign Up</Link>
         </p>
     </main>
   );
