@@ -24,14 +24,15 @@ export default function Dashboard() {
   };
 
   return (
-    <main className="text-center bg-[#f0f4f3] text-black m-0 pt-64">
+    <main>
       <Image src="/shape_2.png" alt="Logo" width={300} height={270} className='absolute z-10 -top-[67px] -left-[20px]' />
 
-      <div className="absolute top-0 left-0 bg-[#50C2C9] m-0 w-full h-[298px]">
+      <div className="bg-[#50C2C9] m-0 w-full h-[298px]">
         <Image src="/Ellipse 3.png" alt="Logo" width={100} height={100} className='inline-block mx-auto mt-32 mb-4' />
         <h2 className="text-[18px] font-bold text-center text-white">Welcome Jeegar goyani</h2>
       </div>
 
+      <div className="px-4 pb-12">
       <h2 className="text-[12px] text-right mt-4 font-semibold">Good Afternoon</h2>
       <Image src="/clock.png" alt="Logo" width={184.44} height={138} className='inline-block mx-auto mt-4 mb-4' />
       <h2 className="text-[14px] text-left font-semibold mb-4">Task list</h2>
@@ -57,7 +58,7 @@ export default function Dashboard() {
             type="checkbox"
             checked={checked[index]}
             onChange={() => toggleCheck(index)}
-            className={`w-[17px] h-[17px] accent-[#50C2C9] bg-white border-[2px] border-black mr-4 rounded outline-2`}
+            className={`w-[17px] h-[17px] accent-[#50C2C9] bg-white border-[2px] border-black mr-2 rounded outline-2`}
           />
           <span className={`text-[12px] font-semibold text-black/70`}>{item}</span>
         </label>
@@ -65,6 +66,7 @@ export default function Dashboard() {
     </div>
     <div className="absolute right-6 top-12 w-3 h-[86px] border-r-2 border-[#DFDFDF]"></div>
         </div>
+      </div>
       </div>
 
     </main>

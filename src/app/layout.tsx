@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`relative h-screen px-4 py-8 text-center bg-[#f0f4f3] text-black ${poppins.variable}`}
+        className={`relative h-screen text-center bg-[#f0f4f3] text-black ${poppins.variable}`}
       >
         {children}
       </body>

@@ -16,7 +16,7 @@ export default function RegisterPage() {
   };
 
   return (
-    <main className="relative h-full px-4 py-8 text-center bg-[#f0f4f3] text-black space-y-6">
+    <main className="px-4 py-8 space-y-6">
         <Image src="/shape.png" alt="Logo" width={300} height={270} className='absolute -top-[67px] -left-[20px]'/>
         <h2 className="text-[18px] font-bold text-center mt-48 mb-6">Welcome to Onboard!</h2>
         <p className='text-[13px] mx-auto w-[203px] text-black/80 mb-20 px-6'>Let’s help to meet up your tasks.</p>
@@ -31,7 +31,7 @@ export default function RegisterPage() {
         Register
       </button>
 
-        <p className="text-center text-sm pb-12">
+        <p className="text-center text-sm pb-8">
           Already have an account? <Link href="/login" className="text-[#50C2C9]">Sign In</Link>
         </p>
     </main>
