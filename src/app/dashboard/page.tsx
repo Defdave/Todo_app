@@ -58,7 +58,7 @@ export default function Dashboard() {
             type="checkbox"
             checked={checked[index]}
             onChange={() => toggleCheck(index)}
-            className={`w-[17px] h-[17px] accent-[#50C2C9] bg-white border-[2px] border-black mr-2 rounded outline-2`}
+            className={`w-[17px] h-[17px] accent-[#50C2C9] text-[#50C2C9] bg-white border-[2px] border-black mr-2 rounded outline-2`}
           />
           <span className={`text-[12px] font-semibold text-black/70`}>{item}</span>
         </label>
