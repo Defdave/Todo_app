@@ -27,10 +27,10 @@ body {
 
 @layer base {
   input {
-    @apply w-[380px] h-[50px] mx-auto bg-white text-black/80 rounded-4xl px-6 text-[13px] outline-none;
+    @apply w-full h-[50px] mx-auto bg-white text-black/80 rounded-4xl px-6 text-[13px] outline-none;
   }
 
   button {
-    @apply w-[380px] h-[60px] text-center bg-[#50C2C9] text-white rounded-[8px] text-[18px] transition;
+    @apply w-full h-[60px] mx-auto text-center bg-[#50C2C9] text-white rounded-[8px] text-[18px] transition;
   }
 }

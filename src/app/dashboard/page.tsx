@@ -47,7 +47,7 @@ export default function Dashboard() {
         </div>
         
         <div className="relative">
-        <div className="text-left space-y-4 px-4 pb-12">
+        <div className="mx-auto text-left space-y-4 px-4 pb-12">
       {items.map((item, index) => (
         <label
           key={index}
