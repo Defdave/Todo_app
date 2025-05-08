@@ -24,7 +24,7 @@ export default function Dashboard() {
   };
 
   return (
-    <main className="h-full p-0 text-center bg-[#f0f4f3] text-black space-y-6 pb-12">
+    <main className="p-0 text-center bg-[#f0f4f3] text-black space-y-6 pb-12">
       <Image src="/shape_2.png" alt="Logo" width={300} height={270} className='absolute z-10 -top-[67px] -left-[20px]' />
 
       <div className="bg-[#50C2C9] w-full h-[298px]">

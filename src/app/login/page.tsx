@@ -14,7 +14,7 @@ export default function LoginPage() {
   };
 
   return (
-    <main className="h-screen px-4 py-8 text-center bg-[#f0f4f3] text-black space-y-6">
+    <main className="relative h-full px-4 py-8 text-center bg-[#f0f4f3] text-black space-y-6">
           <Image src="/shape.png" alt="Logo" width={300} height={270} className='absolute -top-[67px] -left-[20px]'/>
           <h2 className="text-[18px] font-bold text-center mt-48">Welcome back</h2>
           <Image src="/undraw_back_to_school_inwc 1.png" alt="Logo" width={184.44} height={138} className='inline-block mx-auto my-12'/>

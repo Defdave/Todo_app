@@ -10,7 +10,7 @@ export default function SplashScreen() {
   };
 
   return (
-    <main className="h-screen px-4 py-8 text-center bg-[#f0f4f3] text-black space-y-6">
+    <main className="relative h-full px-4 py-8 text-center bg-[#f0f4f3] text-black space-y-6">
       <Image src="/shape.png" alt="Logo" width={300} height={270} className='absolute -top-[67px] -left-[20px]'/>
       <Image src="/undraw_done_checking_re_6vyx 1.png" alt="Logo" width={254} height={194} className='inline-block mx-auto mt-[210px]'/>
       
